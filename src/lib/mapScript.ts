@@ -7,6 +7,7 @@ import { get } from 'svelte/store';
 export const gameStatus = persisted('gameStatus', {
     stage: 0,
     requiresTrial: false,
+    trialFinished: false,
     finished: false,
 });
 
@@ -32,7 +33,6 @@ function initMap(lat: number, lng: number) {
         attributionControl: false,
     }).setView([lat, lng]);
 	L.tileLayer('ttps://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg', {
-		attribution: '&copy; OpenStreetMap contributors'
 	}).addTo(map);
 
 	userMarker = L.marker([lat, lng]).addTo(map).openPopup();
@@ -56,7 +56,7 @@ export const run = () => {
 
             const currentLandMark = positions[get(gameStatus).stage];
 
-            if(getDistance(lat, lng, currentLandMark.latitude, currentLandMark.longitude) < currentLandMark.range) {
+            if(getDistance(lat, lng, currentLandMark.latitude, currentLandMark.longitude) < currentLandMark.range / 1000) {
                 gameStatus.update((status) => {
                     if(!status.requiresTrial) {
                         // add landmark to the map
@@ -65,6 +65,8 @@ export const run = () => {
                         status.requiresTrial = true;
                         return status;
                     }
+
+                    if(!status.trialFinished) return status;
 
                     if(status.stage < positions.length - 1) {
                         status.stage++;
