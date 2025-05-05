@@ -30,7 +30,7 @@ function initMap(lat: number, lng: number) {
         center: [lat, lng],
         zoom: 19,
         attributionControl: false,
-    }).setView([lat, lng], 16);
+    }).setView([lat, lng]);
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; OpenStreetMap contributors'
 	}).addTo(map);
