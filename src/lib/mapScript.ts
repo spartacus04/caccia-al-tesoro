@@ -31,7 +31,7 @@ function initMap(lat: number, lng: number) {
         zoom: 19,
         attributionControl: false,
     }).setView([lat, lng]);
-	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	L.tileLayer('ttps://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg', {
 		attribution: '&copy; OpenStreetMap contributors'
 	}).addTo(map);
 
