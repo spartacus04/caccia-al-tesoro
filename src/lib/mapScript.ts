@@ -29,10 +29,10 @@ function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
 function initMap(lat: number, lng: number) {
 	map = L.map('map', {
         center: [lat, lng],
-        zoom: 19,
+        zoom: 20,
         attributionControl: false,
     }).setView([lat, lng]);
-	L.tileLayer('ttps://tiles.stadiamaps.com/tiles/alidade_satellite/{z}/{x}/{y}{r}.jpg', {
+	L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 	}).addTo(map);
 
 	userMarker = L.marker([lat, lng]).addTo(map).openPopup();
