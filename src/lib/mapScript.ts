@@ -40,7 +40,6 @@ function initMap(lat: number, lng: number) {
 
 function updateUserLocation(lat: number, lng: number) {
 	userMarker.setLatLng([lat, lng]);
-	map.setView([lat, lng]); // Keep map centered
 }
 
 export const run = () => {
