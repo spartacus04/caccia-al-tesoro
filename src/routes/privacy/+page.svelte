@@ -5,7 +5,7 @@
     <meta name="description" content="Privacy Policy for our website" />
 </svelte:head>
 
-<div class="max-w-3xl mx-auto px-4 py-10">
+<div class="max-w-3xl mx-auto px-4 py-10 bg-blue-950">
     <h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
     
     <section class="mb-6">

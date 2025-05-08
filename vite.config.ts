@@ -5,4 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	base: '/caccia-al-tesoro/',
+	server: {
+		allowedHosts: true,
+	}
 });
