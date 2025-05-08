@@ -23,7 +23,7 @@ Per eseguire il progetto sul tuo computer:
 ```bash
 git clone https://github.com/spartacus04/caccia-al-tesoro.git
 cd caccia-al-tesoro
-````
+```
 
 ### 2. Installa le dipendenze
 

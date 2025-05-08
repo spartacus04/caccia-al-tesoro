@@ -6,6 +6,7 @@
 
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
-html, body {
-    @apply h-full p-0
+html,
+body {
+	@apply h-full p-0;
 }
