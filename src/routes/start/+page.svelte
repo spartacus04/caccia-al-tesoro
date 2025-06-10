@@ -4,28 +4,9 @@
 	const start = () => {
 		gameManager.saveData.update(data => {
 			data.startTime = Date.now();
+			data.endTime = 0;
 			return data;
 		})
-	}
-
-	const getTimeStr = () => {
-		const startSecs = Math.floor(gameManager.saveDataSnapshot.startTime / 1000);
-		const endSecs = Math.floor(gameManager.saveDataSnapshot.endTime / 1000);
-
-		const diffSecs = endSecs - startSecs;
-
-		const hours = Math.floor(diffSecs / 3600);
-
-		const minutes = Math.floor((diffSecs % 3600) / 60);
-		const seconds = diffSecs % 60;
-
-		let timeStr = '';
-		if (hours > 0) {
-			timeStr += `${hours} ore `;
-		}
-		timeStr += `${minutes} minuti e `;
-		timeStr += `${seconds} secondi`;
-		return timeStr;
 	}
 </script>
 
@@ -49,7 +30,7 @@
 			>
 		</div>
 		{#if gameManager.saveDataSnapshot.completed}
-			<p class="mt-2 text-center text-green-600"><b>Ho concluso la caccia al tesoro in {getTimeStr()}!</b></p>
+			<p class="mt-2 text-center text-green-600"><b>Ho concluso la caccia al tesoro in {gameManager.getFormattedTime()}!</b></p>
 		{/if}
 	</div>
 </div>

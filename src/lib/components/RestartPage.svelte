@@ -16,6 +16,7 @@
 >
 	<h1 class="text-3xl text-yellow-500">Hai concluso la caccia al tesoro!</h1>
 	<p>Grazie per aver giocato</p>
+	<p class="text-center text-green-600">Tempo di gioco: {gameManager.getFormattedTime()}</p>
 
 	<button class="mt-2 rounded-2xl bg-green-700 p-2" on:click={restart}>Ricomincia</button>
 </div>

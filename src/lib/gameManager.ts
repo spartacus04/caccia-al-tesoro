@@ -92,6 +92,29 @@ class GameManager {
 			return data;
 		});
 	}
+
+	public getFormattedTime() {
+		if(this.saveDataSnapshot.endTime === 0) {
+			return 'In corso...';
+		}
+
+		const startSecs = Math.floor(this.saveDataSnapshot.startTime / 1000);
+		const endSecs = Math.floor(this.saveDataSnapshot.endTime / 1000);
+
+		const diffSecs = endSecs - startSecs;
+
+		const hours = Math.floor(diffSecs / 3600);
+		const minutes = Math.floor((diffSecs % 3600) / 60);
+		const seconds = diffSecs % 60;
+
+		let timeStr = '';
+		if (hours > 0) {
+			timeStr += `${hours} ore `;
+		}
+		timeStr += `${minutes} minuti e `;
+		timeStr += `${seconds} secondi`;
+		return timeStr;
+	}	
 }
 
 export const gameManager = new GameManager();
