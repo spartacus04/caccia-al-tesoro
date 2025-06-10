@@ -6,7 +6,9 @@ class GameManager {
 	public saveData = persisted('gameSave', {
 		stage: 0,
 		inTrial: false,
-		completed: false
+		completed: false,
+		startTime: Date.now(),
+		endTime: 0
 	});
 
 	public constructor() {
@@ -86,6 +88,7 @@ class GameManager {
 	public complete() {
 		this.saveData.update((data) => {
 			data.completed = true;
+			data.endTime = Date.now();
 			return data;
 		});
 	}

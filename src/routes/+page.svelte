@@ -40,7 +40,6 @@
 			</h1>
 			<p class="text-md mb-4">{waypoints[$saveDataStore.stage].subtitle}</p>
 		</div>
-		<button on:click={gameManager.reset}> reset </button>
 	</div>
 </div>
 
