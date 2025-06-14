@@ -48,7 +48,7 @@ Apri il browser su `http://localhost:5173` (o un'altra porta indicata nel termin
 Le tappe della caccia al tesoro (coordinate, descrizioni, enigmi, ecc.) sono configurate nel file:
 
 ```
-src/lib/index.ts
+src/lib/waypoints.json
 ```
 
 Modifica questo file per personalizzare il percorso, i checkpoint e i contenuti da mostrare agli utenti.
