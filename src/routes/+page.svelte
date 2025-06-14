@@ -33,10 +33,10 @@
 		<img src={loading_anim} alt="Loading" class="h-16 w-16" />
 		<h2>Caricamento...</h2>
 	</div>
-	<div class="">
-		<div class="mx-auto w-full max-w-3xl bg-blue-950 p-8">
-			<h1 class="mb-6 text-center text-3xl font-bold text-yellow-500">
-				{waypoints[$saveDataStore.stage].text}
+	<div class="flex items-center justify-center">
+		<div class="mx-auto w-full max-w-3xl bg-blue-950 p-8 flex items-center justify-center">
+			<h1 class="mb-6 text-justify w-fit text-xl font-bold text-yellow-500">
+				{@html waypoints[$saveDataStore.stage].text}
 			</h1>
 			<p class="text-md mb-4">{waypoints[$saveDataStore.stage].subtitle}</p>
 		</div>

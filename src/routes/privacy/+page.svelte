@@ -49,6 +49,22 @@
 	</section>
 
 	<section class="mb-6">
+		<h2 class="mb-2 text-xl font-semibold">Progetto Open Source</h2>
+		<p>
+			Questa applicazione è un <strong>progetto open source</strong>, il che significa che il suo
+			codice sorgente è pubblicamente disponibile e chiunque può visualizzarlo, studiarlo, modificarlo o
+			contribuire al suo sviluppo. Il codice è ospitato su GitHub all'indirizzo:
+			<a
+				href="https://github.com/spartacus04/caccia-al-tesoro"
+				class="text-blue-300 underline hover:text-blue-100"
+				target="_blank"
+				rel="noopener noreferrer"
+				>https://github.com/spartacus04/caccia-al-tesoro</a
+			>.
+		</p>
+	</section>
+
+	<section class="mb-6">
 		<h2 class="mb-2 text-xl font-semibold">Modifiche alla Privacy Policy</h2>
 		<p>
 			Eventuali aggiornamenti a questa informativa saranno comunicati attraverso l'applicazione

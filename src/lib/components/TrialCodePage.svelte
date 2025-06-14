@@ -17,7 +17,9 @@
 >
 	<h2 class="text-center text-sm">Risolvi la seguente prova per proseguire!</h2>
 	<h1 class="text-3xl text-yellow-500">{trial.text}</h1>
-	<p>{trial.subtitle}</p>
+	{#if trial.subtitle}
+		<p>{trial.subtitle}</p>
+	{/if}
 
 	<input
 		type="text"

@@ -5,10 +5,10 @@
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
                 (position) => {
-                    const coords = {
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude
-                    };
+                    const coords = [
+                        position.coords.latitude,
+                        position.coords.longitude
+                    ];
 
                     const updatedWaypoint = {
                         ...waypoint,
@@ -28,7 +28,11 @@
                 (error) => {
                     console.error('Error getting location:', error);
                 }
-            );
+            , {
+                enableHighAccuracy: true,
+                timeout: 5000,
+                maximumAge: 0
+            });
         } else {
             alert('Geolocation is not supported by this browser.');
         }
