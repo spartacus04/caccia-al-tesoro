@@ -1,7 +1,7 @@
 [
 	{
 		"text": "Il tuo viaggio è appena iniziato<br>non sarà facile ma spericolato<br>la prima tappa è del Reparto la postazione<br>dove dovrai darti all'azione.",
-		"coords": [45.9999049, 8.7366565],
+		"coords": [46.000320750782116, 8.736523094400276],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice ottenuto dalla prova E/G",
@@ -10,7 +10,7 @@
 	},
 	{
 		"text": "Se le montagne vuoi ben ammirare,<br>verso il lago ti devi spostare.<br>Su una strada sospesa che l'acqua sfiora,<br>c'è una frase nascosta che il senso ignora.",
-		"coords": [45.9996509, 8.7358696],
+		"coords": [45.99988447967785, 8.73650026092008],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice trovato sulla passerella",
@@ -20,7 +20,7 @@
 	},
 	{
 		"text": "Su una barca all'arrembaggio,<br>lascia a riva ogni bagaglio.<br>Segui le barche, vai senza paura:<br>è lì che ti attende la nuova avventura.",
-		"coords": [45.9996509, 8.7358696],
+		"coords": [46.00031590029694, 8.737550642018062],
 		"trial": {
 			"type": "multiple-choice",
 			"miniumCorrectAnswers": 4,
@@ -54,7 +54,7 @@
 	},
 	{
 		"text": "Come lo scout aiuta in ogni circostanza,<br>con prontezza, coraggio e costanza…<br>Se vuoi passare questa tappa importante,<br>cerca la Croce, sempre aiutante.",
-		"coords": [46.0007404, 8.7389281],
+		"coords": [46.00013763866969, 8.736841269093874],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice ottenuto dopo la prova di primo soccorso",
@@ -63,7 +63,7 @@
 	},
 	{
 		"text": "Mater decor Carmeli, bellezza e mistero,<br>in questa chiesa dal fascino sincero.<br>Lì dove il tempo sembra fermarsi,<br>c'è una tappa da conquistarsi.",
-		"coords": [46.0000542, 8.7367497],
+		"coords": [45.99995851931815, 8.737307851817102],
 		"trial": {
 			"type": "code",
 			"text": "Risolvi il cruciverba e inserisci la parola chiave",
@@ -72,7 +72,7 @@
 	},
 	{
 		"text": "Chi fa del servizio la propria missione,<br>trova nel gruppo la direzione.<br>Se vuoi scoprire il valore del fare,<br>allo stand R/S ti devi fermare!",
-		"coords": [46.0021711, 8.7404973],
+		"coords": [45.9999756972054, 8.73655228220547],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice ottenuto dalla prova R/S",
@@ -81,7 +81,7 @@
 	},
 	{
 		"text": "Dove la bandiera si tende al vento,<br>c'è un momento che vale ogni impegno e talento.<br>Ricorda i valori, la Promessa e il tuo sentiero:<br>qui si rinnova l'impegno sincero!",
-		"coords": [45.9999909, 8.7366914],
+		"coords": [46.00041047653838, 8.73703827742977],
 		"trial": {
 			"type": "code",
 			"text": "Risolvi l'enigma delle zampe per ottenere il codice",
@@ -91,7 +91,7 @@
 	},
 	{
 		"text": "Ed eccoti qui, di nuovo al via,<br>hai fatto il giro con energia.<br>Vai dove la rupe racconta storie di un tempo,<br>e il gioco è la chiave per ogni cimento.",
-		"coords": [45.9999017, 8.7367549],
+		"coords": [46.000084431471436, 8.736763171775435],
 		"trial": {
 			"type": "finish"
 		}
