@@ -38,7 +38,7 @@ export const settings: {
 	tileLayerUrl: string;
 	waypoints: Waypoint[];
 } = {
-	waypointMinDistance: 20,
+	waypointMinDistance: 5,
 	tileLayerUrl:
 		'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
 	waypoints: Waypoints as Waypoint[]
