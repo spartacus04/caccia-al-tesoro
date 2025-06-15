@@ -1,7 +1,7 @@
 [
 	{
 		"text": "Il tuo viaggio è appena iniziato<br>non sarà facile ma spericolato<br>la prima tappa è del Reparto la postazione<br>dove dovrai darti all'azione.",
-		"coords": [46.000320750782116, 8.736523094400276],
+		"coords": [46.00002738040971, 8.736701227285511],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice ottenuto dalla prova E/G",
@@ -10,7 +10,7 @@
 	},
 	{
 		"text": "Se le montagne vuoi ben ammirare,<br>verso il lago ti devi spostare.<br>Su una strada sospesa che l'acqua sfiora,<br>c'è una frase nascosta che il senso ignora.",
-		"coords": [45.99988447967785, 8.73650026092008],
+		"coords": [46.00004856823039, 8.736708103903045],
 		"trial": {
 			"type": "code",
 			"text": "Inserisci il codice trovato sulla passerella",
