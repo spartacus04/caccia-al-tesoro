@@ -1,100 +1,99 @@
 [
 	{
-	  "text": "Il tuo viaggio è appena iniziato<br>non sarà facile ma spericolato<br>la prima tappa è del Reparto la postazione<br>dove dovrai darti all'azione.",
-	  "coords": [45.527500, 9.282000],
-	  "trial": {
-		"type": "code",
-		"text": "Inserisci il codice ottenuto dalla prova E/G",
-		"answer": "roboris"
-	  }
+		"text": "Il tuo viaggio è appena iniziato<br>non sarà facile ma spericolato<br>la prima tappa è del Reparto la postazione<br>dove dovrai darti all'azione.",
+		"coords": [45.9999049, 8.7366565],
+		"trial": {
+			"type": "code",
+			"text": "Inserisci il codice ottenuto dalla prova E/G",
+			"answer": "roboris"
+		}
 	},
 	{
-	  "text": "Se le montagne vuoi ben ammirare,<br>verso il lago ti devi spostare.<br>Su una strada sospesa che l'acqua sfiora,<br>c'è una frase nascosta che il senso ignora.",
-	  "coords": [45.527800, 9.281700],
-	  "trial": {
-		"type": "code",
-		"text": "Inserisci il codice trovato sulla passerella",
-		"subtitle": "Ti preghiamo di non spostare i cartelli!",
-		"answer": "lasciamo il mondo un po' migliore di come lo abbiamo trovato"
-	  }
+		"text": "Se le montagne vuoi ben ammirare,<br>verso il lago ti devi spostare.<br>Su una strada sospesa che l'acqua sfiora,<br>c'è una frase nascosta che il senso ignora.",
+		"coords": [45.9996509, 8.7358696],
+		"trial": {
+			"type": "code",
+			"text": "Inserisci il codice trovato sulla passerella",
+			"subtitle": "Ti preghiamo di non spostare i cartelli!",
+			"answer": "lasciamo il mondo un po' migliore di come lo abbiamo trovato"
+		}
 	},
 	{
-	  "text": "Su una barca all'arrembaggio,<br>lascia a riva ogni bagaglio.<br>Segui le barche, vai senza paura:<br>è lì che ti attende la nuova avventura.",
-	  "coords": [45.528100, 9.281200],
-	  "trial": {
-		"type": "multiple-choice",
-		"miniumCorrectAnswers": 4,
-		"questions": [
-		  {
-			"text": "Quale di questi oggetti è fondamentale per far muovere una barca a vela?",
-			"options": ["La pagaia", "Il giubbotto salvagente", "La vela"],
-			"answer": 2
-		  },
-		  {
-			"text": "Quale nodo è utile per legare la barca al molo senza che si sciolga facilmente?",
-			"options": ["Nodo scorsoio", "Nodo parlato", "Nodo dell'amicizia"],
-			"answer": 1
-		  },
-		  {
-			"text": "Cosa significa “essere pronti” per uno scout?",
-			"options": [
-			  "Avere sempre uno zaino perfettamente equipaggiato",
-			  "Essere svegli anche la notte",
-			  "Essere disponibili ad aiutare in ogni momento"
-			],
-			"answer": 2
-		  },
-		  {
-			"text": "Che animale guida il branco dei lupetti nel “Libro della Giungla”?",
-			"options": ["Bagheera la pantera", "Akela il lupo", "Kaa il pitone"],
-			"answer": 1
-		  }
-		]
-	  }
+		"text": "Su una barca all'arrembaggio,<br>lascia a riva ogni bagaglio.<br>Segui le barche, vai senza paura:<br>è lì che ti attende la nuova avventura.",
+		"coords": [45.9996509, 8.7358696],
+		"trial": {
+			"type": "multiple-choice",
+			"miniumCorrectAnswers": 4,
+			"questions": [
+				{
+					"text": "Quale di questi oggetti è fondamentale per far muovere una barca a vela?",
+					"options": ["La pagaia", "Il giubbotto salvagente", "La vela"],
+					"answer": 2
+				},
+				{
+					"text": "Quale nodo è utile per legare la barca al molo senza che si sciolga facilmente?",
+					"options": ["Nodo scorsoio", "Nodo parlato", "Nodo dell'amicizia"],
+					"answer": 1
+				},
+				{
+					"text": "Cosa significa “essere pronti” per uno scout?",
+					"options": [
+						"Avere sempre uno zaino perfettamente equipaggiato",
+						"Essere svegli anche la notte",
+						"Essere disponibili ad aiutare in ogni momento"
+					],
+					"answer": 2
+				},
+				{
+					"text": "Che animale guida il branco dei lupetti nel “Libro della Giungla”?",
+					"options": ["Bagheera la pantera", "Akela il lupo", "Kaa il pitone"],
+					"answer": 1
+				}
+			]
+		}
 	},
 	{
-	  "text": "Come lo scout aiuta in ogni circostanza,<br>con prontezza, coraggio e costanza…<br>Se vuoi passare questa tappa importante,<br>cerca la Croce, sempre aiutante.",
-	  "coords": [45.528400, 9.282300],
-	  "trial": {
-		"type": "code",
-		"text": "Inserisci il codice ottenuto dopo la prova di primo soccorso",
-		"answer": "universalità"
-	  }
+		"text": "Come lo scout aiuta in ogni circostanza,<br>con prontezza, coraggio e costanza…<br>Se vuoi passare questa tappa importante,<br>cerca la Croce, sempre aiutante.",
+		"coords": [46.0007404, 8.7389281],
+		"trial": {
+			"type": "code",
+			"text": "Inserisci il codice ottenuto dopo la prova di primo soccorso",
+			"answer": "universalità"
+		}
 	},
 	{
-	  "text": "Mater decor Carmeli, bellezza e mistero,<br>in questa chiesa dal fascino sincero.<br>Lì dove il tempo sembra fermarsi,<br>c'è una tappa da conquistarsi.",
-	  "coords": [45.528700, 9.280500],
-	  "trial": {
-		"type": "code",
-		"text": "Risolvi il cruciverba e inserisci la parola chiave",
-		"answer": "branco"
-	  }
+		"text": "Mater decor Carmeli, bellezza e mistero,<br>in questa chiesa dal fascino sincero.<br>Lì dove il tempo sembra fermarsi,<br>c'è una tappa da conquistarsi.",
+		"coords": [46.0000542, 8.7367497],
+		"trial": {
+			"type": "code",
+			"text": "Risolvi il cruciverba e inserisci la parola chiave",
+			"answer": "branco"
+		}
 	},
 	{
-	  "text": "Chi fa del servizio la propria missione,<br>trova nel gruppo la direzione.<br>Se vuoi scoprire il valore del fare,<br>allo stand R/S ti devi fermare!",
-	  "coords": [45.527600, 9.282500],
-	  "trial": {
-		"type": "code",
-		"text": "Inserisci il codice ottenuto dalla prova R/S",
-		"answer": "comunità"
-	  }
+		"text": "Chi fa del servizio la propria missione,<br>trova nel gruppo la direzione.<br>Se vuoi scoprire il valore del fare,<br>allo stand R/S ti devi fermare!",
+		"coords": [46.0021711, 8.7404973],
+		"trial": {
+			"type": "code",
+			"text": "Inserisci il codice ottenuto dalla prova R/S",
+			"answer": "comunità"
+		}
 	},
 	{
-	  "text": "Dove la bandiera si tende al vento,<br>c'è un momento che vale ogni impegno e talento.<br>Ricorda i valori, la Promessa e il tuo sentiero:<br>qui si rinnova l'impegno sincero!",
-	  "coords": [45.527950, 9.282200],
-	  "trial": {
-		"type": "code",
-		"text": "Risolvi l'enigma delle zampe per ottenere il codice",
-		"subtitle": "Ti preghiamo di non spostare i cartelli!",
-		"answer": "bgmr"
-	  }
+		"text": "Dove la bandiera si tende al vento,<br>c'è un momento che vale ogni impegno e talento.<br>Ricorda i valori, la Promessa e il tuo sentiero:<br>qui si rinnova l'impegno sincero!",
+		"coords": [45.9999909, 8.7366914],
+		"trial": {
+			"type": "code",
+			"text": "Risolvi l'enigma delle zampe per ottenere il codice",
+			"subtitle": "Ti preghiamo di non spostare i cartelli!",
+			"answer": "bgmr"
+		}
 	},
 	{
-	  "text": "Ed eccoti qui, di nuovo al via,<br>hai fatto il giro con energia.<br>Vai dove la rupe racconta storie di un tempo,<br>e il gioco è la chiave per ogni cimento.",
-	  "coords": [45.527500, 9.282000],
-	  "trial": {
-		"type": "finish"
-	  }
+		"text": "Ed eccoti qui, di nuovo al via,<br>hai fatto il giro con energia.<br>Vai dove la rupe racconta storie di un tempo,<br>e il gioco è la chiave per ogni cimento.",
+		"coords": [45.9999017, 8.7367549],
+		"trial": {
+			"type": "finish"
+		}
 	}
-  ]
-  
+]
