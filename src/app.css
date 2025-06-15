@@ -8,5 +8,5 @@
 
 html,
 body {
-	@apply h-full p-0;
+	@apply h-full p-0 text-white;
 }
